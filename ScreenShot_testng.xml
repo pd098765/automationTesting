@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+<listeners>
+<listener class-name="testNG.ListenersLogic"></listener>
+</listeners>
+
+
+  <test  name="Screenshot Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testNG.Facebook_DataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

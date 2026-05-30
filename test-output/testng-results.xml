@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-28T21:07:04 IST" name="Suite" finished-at="2026-05-28T21:07:04 IST" duration-ms="523">
+    <groups>
+    </groups>
+    <test started-at="2026-05-28T21:07:04 IST" name="Test" finished-at="2026-05-28T21:07:04 IST" duration-ms="523">
+      <class name="testNG.SkipTestCases_dependsOnMethod">
+        <test-method signature="Login()[pri:0, instance:testNG.SkipTestCases_dependsOnMethod@b2c9a9c]" started-at="2026-05-28T21:07:04 IST" name="Login" finished-at="2026-05-28T21:07:04 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:0, instance:testNG.SkipTestCases_dependsOnMethod@b2c9a9c]" started-at="2026-05-28T21:07:04 IST" name="Logout" finished-at="2026-05-28T21:07:04 IST" depends-on-methods="testNG.SkipTestCases_dependsOnMethod.Login" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testNG.SkipTestCases_dependsOnMethod -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
